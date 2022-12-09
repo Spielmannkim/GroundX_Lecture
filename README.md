@@ -4,3 +4,6 @@
 [섹션2: 솔리디티(Solidity)와 Klaytn SDK: caver-js] 첫번째 수업: 스마트 컨트랙트, 솔리디티(Solidity)
 https://www.youtube.com/watch?v=ojB5aYhbsZU&list=PLKqrwxupttYEcJhWAw0E_5RVpDD9LD6Q-&index=14
 
+2022.12.09 SimpleStorage.sol파일 참조
+[섹션2: 솔리디티(Solidity)와 Klaytn SDK: caver-js] 두번째 수업: 솔리디티 예제1
+https://www.youtube.com/watch?v=ZFk2KsreUGA&list=PLKqrwxupttYEcJhWAw0E_5RVpDD9LD6Q-&index=15

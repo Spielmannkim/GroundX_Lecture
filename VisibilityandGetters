@@ -1,0 +1,7 @@
+// exteranl,public이 닮았고
+// internal,private이 닮았다.
+
+// exteranl = 다른 컨트랙트에서 & 트랜잭션을 통해 호출 가능
+// public = 트랜잭션을 통해 호출 가능, internal 호출 가능
+// internal = 외부에서 호출 불가능, internal호출 가능, 상속받은 컨트랙트에서 호출 가능
+// private = internal 내부에서 호출가능

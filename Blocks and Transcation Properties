@@ -1,0 +1,11 @@
+blockhash(uint blockNumber) returns (bytes32):블록 해시(최근 256 블록가지만 조회가능)
+block.number (uint):현재 블록 번호
+block.timestamp (uint):현재 블록 타임스탬프
+gasleft() returns (uints256):남은 가스량
+msg.data (bytes calldata):메세지(현재 트랜잭션)에 포함된 실행 데이터(input)
+msg.sender (address payable):현재 함수 실행 주체의 주소
+msg.sig (bytes4):calldata의 첫 4 바이트(함수 해시)
+msg.value (uint):메세지와 전달된 KLAY(peb 단위)양
+now (uint):block.timestamp와 동일
+tx.gasprice (uint):트랜잭션 gas price(25 ston으로 항상 동일)
+tx.origin (address payable):트랜잭션 주체(sender)

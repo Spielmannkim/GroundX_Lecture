@@ -1,0 +1,8 @@
+// 함수 내부에서 해싱하려면 가스비가 무지 비싸다.
+// 오프체인에서 해싱 한 후 사용하는걸 권장하지만 구지 써야할거면 아래대로
+keccak256(bytes memory) returns (bytes32):
+주어진 값으로 Keccak-256 해시를 생성
+sha256(bytes memory) returns (bytes32):
+주어진 값으로 SHA-256 해시를 생성
+ecrecover(bytes32 hash, uint8 v, bytes32 r, bytes32 s) returns (address):
+서명(v, r, s)으로부터 어카운트 주소를 도출(서명->공개키->주소)

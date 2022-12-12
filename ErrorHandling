@@ -1,0 +1,9 @@
+// assert, require 둘다 false인 경우 실행중지하고 그때까지 함수가 변경한 내역을 모두 되돌린다.
+//assert는 테스트할 때 내가 보기 좋으라고 사용
+//단, require로 모두 사용해도 무방
+assert(bool condition)
+
+require(bool condition)
+
+require(bool condition, "string memory message")
+//false 나오면 "string memory message" 이 메세지 띄움

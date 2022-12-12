@@ -1,0 +1,4 @@
+//solidity 제어구문
+if, else, while, do, for, break, continue, return
+//예외처리 기능 없음
+ex) try-catch 없으므로 컨트랙트내의 함수는 절대로 실패하면 안되니 간결하게 짜자

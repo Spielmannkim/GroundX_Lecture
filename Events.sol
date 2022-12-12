@@ -8,3 +8,4 @@ contract Ballot {
         emit Voted(msg.sender, proposal);
     }
 }
+ 
